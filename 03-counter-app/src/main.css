@@ -1,0 +1,20 @@
+html, body{
+  background-color: #21232A;
+  color: white;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  padding: 70px;
+}
+
+.card{
+  background-color: #6E8898;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+button{
+  padding: 15px;
+  font-size: 1.3rem;
+  margin-right: 5px;
+}

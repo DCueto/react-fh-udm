@@ -8,8 +8,9 @@ export const FirstComponent = ( { title, number, subTitle, name } ) => {
 
   return (
     <div className='card'>
-     <h2>{ title }</h2>
+     <h2 data-testid='test-title' > { title } </h2>
      <h3>{ number * 2 }</h3>
+     <h4>{ subTitle }</h4>
      <h4>{ subTitle }</h4>
      <h5>{ name }</h5>
     </div>
@@ -23,7 +24,7 @@ FirstComponent.propTypes = {
 }
 
 FirstComponent.defaultProps = {
-  title: 'No hay título',
+  // title: 'No hay título',
   subTitle: 'No hay subtítulo',
   name: 'Daniel Cueto'
 }
